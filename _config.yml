@@ -1,0 +1,5 @@
+title: "Tectonic Monitoring Dashboard"
+description: "Automated real-time tectonic monitoring with FastAPI, Streamlit, PostGIS, and Docker"
+theme: jekyll-theme-cayman
+show_downloads: true
+google_analytics:
