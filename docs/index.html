@@ -147,7 +147,7 @@ function depthColor(d) {
   return '#aa44ff';
 }
 
-function magToRadius(m) { return Math.max(3, Math.pow(10, 0.5 * (m - 1))); }
+function magToRadius(m) { return Math.max(3, 2 * Math.pow(1.65, m - 2)); }
 
 function renderMap(events) {
   markers.forEach(m => map.removeLayer(m));
